@@ -1,0 +1,2 @@
+This plugins adds an autoload that recives audio energy values from multiple custom AudioStreamPlayers that can be customized to ensure the controller only listens to X channel.
+The ReactiveAudioPlayers (the custom AudioStreamPlayers) has one for 3D and a 2D one. The 2D one is not functioning like the AudioStreamPlayer2D but instead like the normal unspecified AudioStreamPlayer. I decided to go this route as I haven't made a 2D game in godot before and I had no game to test it out on. I'm sure it would've worked though! Feel free to implement it yourself and PR it.
